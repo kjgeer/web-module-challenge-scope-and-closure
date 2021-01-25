@@ -29,10 +29,17 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   
   1. What is the difference between counter1 and counter2?
   
+    counter2  has a closure
+
   2. Which of the two uses a closure? How can you tell?
   
+    counter2.  It goes outside of the function.
+
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+
+    counter1 would be preferable if you wanted to do everything inside that function.  counter2 would be better if you wanted to use count in more than one function.
+
 */
 
 // counter1 code
@@ -62,8 +69,8 @@ Use the inning function below to do the following:
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(){
-    /*Code Here*/
+function inning(num){
+  return Math.floor(Math.random() * Math.floor(2));
 }
 
 
