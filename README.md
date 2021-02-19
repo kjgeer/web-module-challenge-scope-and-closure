@@ -64,9 +64,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+Its to call the names into the function. its outside the function
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+same = "Dan rolled a". different = the number of the roll
+
 c. What is the lexical scope of `newRoll`? 
 
+it belongs to  personalDice function
 
 ### Task 3 - Stretch Goals
 
